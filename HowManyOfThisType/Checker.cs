@@ -11,7 +11,7 @@ namespace HowManyOfThisType
         {
             int number=0;
 
-            foreach(IEnumerable<object> item in items)
+            foreach( object item in items)
             {
                 number++;
             }
